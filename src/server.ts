@@ -61,4 +61,4 @@ server
 
         return res.send(signedUrl)
     })
-server.listen(3333, () => {console.log("✅ Server listening on port 3333.")})
+server.listen(4000, () => {console.log("✅ Server listening on port 4000.")})

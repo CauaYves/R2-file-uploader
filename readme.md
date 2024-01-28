@@ -1,24 +1,24 @@
 # Installation Guide
 
-you will need NodeJs 20.6 version, check atual version using node -v on terminal.
+You will need Node.js version 20.6; check the current version using `node -v` in the terminal.
 
-clone this app to your folder and run:
+Clone this application to your folder and run:
 
     npm install
 
-you will need create a bucket on cloudlare R2 on https://dash.cloudflare.com/, Insert your environments variables from R2 in .env file following the .env.example.
+You will need to create a bucket on Cloudflare R2 at https://dash.cloudflare.com/. Insert your R2 environment variables into the .env file following the .env.example.
 
-now will just need create the database, run:
+Now, you just need to create the database. Run:
 
     npx prisma generate
     npx prisma migrate dev
 
-now your database is sync with the schema.prisma file.
+Now, your database is synchronized with the schema.prisma file.
 
-finally, run:
+Finally, run:
 
     npm run dev
 
-and the server will be executed on port 4000.
+And the server will be executed on port 4000.
 
-any doubts, ask me on linkedin or email: cauayves5@gmail.com | https://www.linkedin.com/in/cauayves/
+For any questions, contact me on LinkedIn or email: cauayves5@gmail.com | https://www.linkedin.com/in/cauayves/
